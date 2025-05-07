@@ -1,0 +1,121 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("image/gradien.png");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Other Styles */
+  .container {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.3rem solid #1a1a1a;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(90deg, #00dbde, #fc00ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1a1a1a;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: white;
+    min-width: 80px;
+    flex: 1;
+    text-align: center;
+    position: relative;
+  }
+  
+  .clock p {
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .front-clock {
+    background-color: #0d0d0d;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    z-index: 1;
+  }
+  
+  .world-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    width: 100%;
+  }
+  
+  .world-clock {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    min-width: 100px;
+    flex: 1;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+    .clock {
+      font-size: 2rem;
+    }
+    .world-clock {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 1rem;
+    }
+    .clock, .world-clock {
+      font-size: 1.2rem;
+      padding: 0.5rem;
+    }
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
