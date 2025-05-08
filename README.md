@@ -20,3 +20,16 @@ World-clock/
 └── script.js        // JavaScript functionality
 ```
 ## 🚀 Getting Started
+1.To view the World Clock application locally:
+```
+bash
+git clone https://github.com/Rakesh000070/World-clock.git
+```
+2.Navigate to the Project Directory:
+```
+cd World-clock
+```
+3.Open index.html in Your Browser:
+- You can double-click the index.html file.
+
+- Or, right-click and choose your preferred browser to open.
