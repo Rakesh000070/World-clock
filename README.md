@@ -34,3 +34,9 @@ cd World-clock
 - You can double-click the index.html file.
 
 - Or, right-click and choose your preferred browser to open.
+
+  ## 🔧 Customization
+  Feel free to modify the script.js file to add or remove cities, change time formats, or enhance functionalities as per your requirements.
+
+  ## 📄 License
+  This project is open-source and available under the MIT License.
