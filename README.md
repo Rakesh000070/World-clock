@@ -9,3 +9,14 @@ A simple and responsive web application that displays the current time across va
 - Responsive Design: Ensures optimal viewing experience across devices of different screen sizes.
 
 - Minimalistic Interface: Clean and straightforward design for easy readability.
+
+## 📁 Project Structure
+
+```
+
+World-clock/
+├── index.html       // Main HTML file
+├── style.css        // Styling for the application
+└── script.js        // JavaScript functionality
+```
+## 🚀 Getting Started
