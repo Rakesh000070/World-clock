@@ -27,6 +27,7 @@ git clone https://github.com/Rakesh000070/World-clock.git
 ```
 2.Navigate to the Project Directory:
 ```
+bash
 cd World-clock
 ```
 3.Open index.html in Your Browser:
